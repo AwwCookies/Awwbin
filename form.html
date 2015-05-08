@@ -1,0 +1,91 @@
+<html>
+  <head><title>AwwBin</title></head>
+  <style>
+	 .form{ 
+	    width: 80%; 
+	    width: 80%; 
+	    border-width: 2px; 
+	    border-color: #CCCCCC; 
+	    border-radius: 4px; 
+	    border-style: dashed; 
+	    color: #222222; 
+	    font-size: 16px; 
+	    margin: 29px; 
+	    background-color: #FFFFFF; 
+	    padding: 20px;
+	} 
+	.content{ 
+	    margin: 0px; 
+	} 
+	.form label{ 
+	    color: #222222; 
+	    font-size: 14px; 
+	    display: block; 
+	} 
+	.form input[type=radio], input[type=checkbox]{ 
+	    margin: 10px; 
+	    width: 13px; 
+	} 
+	.form div{ 
+	    display: block; 
+	} 
+	.form input, form textarea, form select{ 
+	    border-width: 2px; 
+	    border-style: dashed; 
+	    border-color: #666666; 
+	    border-radius: 7px; 
+	    padding: 3px; 
+	    width: 100%; 
+	} 
+	.form, .form h1, .form h2{ 
+	    font-family: 'Crafty Girls', sans-serif;; 
+	} 
+	.form h1{ 
+	    font-size: 40px; 
+	    color: #607A75; 
+	    padding: 0px; 
+	    margin: 0px; 
+	    margin-bottom: 10px; 
+	    border-bottom-style: dotted; 
+	    border-bottom-color: #CCCCCC; 
+	    border-bottom-width: 2px; 
+	    border-radius: 0px; 
+	    background-color: #FFFFFF; 
+	} 
+	.intro{ 
+	    margin-bottom: 16px; 
+	} 
+	.clear{ 
+	    clear: both; 
+	} 
+	.form textarea{ 
+	    height: 122px; 
+	    width: 100%;
+	    height: 75%;
+	    font-size: 20;
+	} 
+	.form input[type=submit]{ 
+	    width: 100%; 
+	    background-color: #CCCCCC; 
+	    color: #222222; 
+	} 
+	.field{ 
+	    margin-bottom: 0px; 
+	} 
+
+  </style>
+  <body>
+  	<center>
+		<form id="form" class="form" name="form" method="post" action="http://smile.sh/awwbin/post.php">
+		    <h1>AwwBin</h1>
+		    <div class="content" align=center>
+		        <div class="intro"></div>
+		        <div id="section0" class="sortable">
+		            <div class="field"><label for="text">text</label><textarea id="text" name="text" wrap="hard"></textarea></div>
+		        </div>
+		        <button type="submit">Paste!</button>
+		    </div>
+		</form>
+    </center>
+  </body>
+</html>
